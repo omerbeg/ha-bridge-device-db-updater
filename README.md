@@ -18,7 +18,7 @@ The script replaces each device's `uniqueid` with a new, sequentially numbered v
 1. **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/your-username/ha-bridge-device-db-updater.git
+    git clone https://github.com/omerbeg/ha-bridge-device-db-updater.git
     cd ha-bridge-device-db-updater
     ```
 
