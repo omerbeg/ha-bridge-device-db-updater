@@ -3,6 +3,10 @@
 This Python script is designed to update the `uniqueid` values in the `device.db` file used by the HA-Bridge project. 
 The script replaces each device's `uniqueid` with a new, sequentially numbered value, ensuring consistency across your devices.
 
+The `uniqueid` in this 9-octet format is essential for Alexa Echo devices to correctly identify and rediscover devices during the re-discovery process.
+If you observe that the [HA-Bridge](https://github.com/bwssytems/ha-bridge) can't discover your devices, get the device have a new `uniqueid` in this format.
+
+
 ## Features
 
 - **Automatic `uniqueid` Update:** Replaces `uniqueid` values in the `device.db` file with a consistent format: `00:11:22:33:44:55:66:XX-00`, where `XX` is a counter incremented from `01` to `99`.
